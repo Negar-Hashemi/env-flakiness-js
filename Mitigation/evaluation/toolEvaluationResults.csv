@@ -1,0 +1,9 @@
+﻿,,,,unsanitised,,,,sanitised,,,,,,,
+Project URL,Project Name,Testing Framework,#tests,#failure,#skipped,#passed,run time (s),Avg run time (s),#failure,#skipped,#passed,run time (s),Avg run time (s),Environmental Factor,Added Annotation Tag
+https://github.com/Chalarangelo/30-seconds-of-code,30-seconds-of-code,vitest,148,17,0,131,3613,40,0,17,131,5672,63,Windows,@skipOnOS win32
+https://github.com/iptv-org/iptv,iptv,jest,8,8,0,7,2811,31,0,8,7,6903,76,"Windows, Node", @skipOnOS win32 @skipOnNodeVersion 18
+https://github.com/fabricjs/fabric.js,fabric.js,jest,162,99,2,61,91822,1020,0,102,61,5869,65,"macOS,Node 22",
+https://github.com/pugjs/pug,pug,jest,650,2,0,648,5296,58,0,2,648,7645,84,Node," @enabledForNodeRange min=14,max=16"
+https://github.com/rollup/rollup,rollup/rollup,mocha,5213,1,0,5212,64629,718,0,1,5219,64850,720,Windows and Node, @skipOnOS win32 @skipOnNodeVersion 22
+https://github.com/balderdashy/sails,balderdashy/sails,mocha,1550,1,13,1536,21312,236,0,14,1536,21435,238,node 22,skipOnNodeVersion 22
+https://github.com/preactjs/preact,preactjs/preact,mocha,1217,1,13,1203,6154,68,0,14,1203,13217,146,"node 20, 22","skipOnNodeVersion 20, 22"

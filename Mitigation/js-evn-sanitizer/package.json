@@ -1,0 +1,57 @@
+{
+  "name": "js-env-sanitizer",
+  "version": "0.1.0",
+  "description": "Simplify the management of environment- specific flaky tests in JavaScript tests by conditionally skips tests (test/it/describe) based on docblock tags like @skipOnOS, @enabledOnBrowser, etc.",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./setup.js": "./setup.js"
+  },
+  "type": "commonjs",
+  "files": [
+    "index.js",
+    "sanitizer.js",
+    "setup.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "postinstall": "node ./setup.js || echo \"[js-env-sanitizer] setup skipped\"",
+    "lint": "eslint .",
+    "test": "echo \"(no tests yet)\""
+  },
+  "keywords": [
+    "babel-plugin",
+    "jest",
+    "vitest",
+    "mocha",
+    "test",
+    "skip",
+    "docblock",
+    "sanitizer"
+  ],
+  "author": "Negar Hashemi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Negar-Hashemi/js-env-sanitizer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Negar-Hashemi/js-env-sanitizer/issues"
+  },
+  "homepage": "https://github.com/Negar-Hashemi/js-env-sanitizer#readme",
+  "engines": {
+    "node": ">=14"
+  },
+  "peerDependencies": {
+    "@babel/core": ">=7.22.0"
+  },
+  "dependencies": {
+    "jest-docblock": "^29.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.0",
+    "@babel/preset-env": "^7.25.0",
+    "eslint": "^9.5.0"
+  }
+}
