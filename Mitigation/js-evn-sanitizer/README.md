@@ -2,7 +2,7 @@
 
 Simplifies the management of environment-specific flaky tests. Developers can annotate test blocks with docblock tags to specify the conditions under which a test should be skipped or enabled.
 
-The plugin **skips or enables tests** based on environment conditions such as OS, Node.js version, or browser, and works with **Jest**, **Mocha**, and **Vitest**.
+It **skips or enables tests** based on environment conditions such as OS, Node.js version, or browser, and works with **Jest**, **Mocha**, and **Vitest**.
 
 ---
 
@@ -11,7 +11,7 @@ The plugin **skips or enables tests** based on environment conditions such as OS
 Install the plugin:
 
 ```bash
-npm install --save-dev git+https://github.com/Negar-Hashemi/js-env-sanitizer.git
+npm install --save-dev git+https://anonymous.4open.science/r/js-env-sanitizer-C6ED.git
 ```
 
 That’s it! The `setup.js` script runs automatically (via `postinstall`) to configure Babel and your test framework.  
@@ -51,7 +51,7 @@ test('runs only on Node 18', () => {});
   "name": "test-project",
   "version": "1.0.0",
   "devDependencies": {
-    "js-env-sanitizer": "git+https://github.com/Negar-Hashemi/js-env-sanitizer.git"
+    "js-env-sanitizer": "git+https://anonymous.4open.science/r/js-env-sanitizer-C6ED.git"
   }
 }
 ```

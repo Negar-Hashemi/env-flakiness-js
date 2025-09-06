@@ -34,12 +34,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Negar-Hashemi/js-env-sanitizer.git"
+    "url": "git+https://anonymous.4open.science/r/js-env-sanitizer-C6ED.git"
   },
   "bugs": {
-    "url": "https://github.com/Negar-Hashemi/js-env-sanitizer/issues"
+    "url": "https://anonymous.4open.science/r/js-env-sanitizer-C6ED/issues"
   },
-  "homepage": "https://github.com/Negar-Hashemi/js-env-sanitizer#readme",
+  "homepage": "https://anonymous.4open.science/r/js-env-sanitizer-C6ED#readme",
   "engines": {
     "node": ">=14"
   },
